@@ -1,5 +1,5 @@
 ---
-title: "Midterm"
+title: "Prediction Algorithm"
 output: html_notebook
 ---
 Step 1: First we want import the IMDB Data from the csv & attach it to make it easier to work with
@@ -869,7 +869,7 @@ color="Color",musical=0,content10="PG-13")) # Prediction = 7.040479
 #Predicting Ralph Breaks the Internet
 predict(newest, data.frame(duration_mins=112, director_column10="Other", action = 0, thriller=0,romance=0,horror=0,drama = 0, animation=1, distributor10="Walt Disney Studios Motion Pictures",number_of_faces_in_movie_poster= 0,
 color="Color",musical=0,content10="PG")) #Rating = 7.505993
-#seems like the 78 faces is fucking this up.
+
 
 #Predicting Second Act
 predict(newest, data.frame(duration_mins=105, director_column10= "Other", action = 0, thriller=0,romance=1,horror=0,drama = 0, animation=0, distributor10="Other",number_of_faces_in_movie_poster= 1, color="Color",musical=0,content10="PG-13")) #Rating = 6.108134
